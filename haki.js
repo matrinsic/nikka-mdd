@@ -93,8 +93,8 @@ async function Abhiy() {
     const { connection, lastDisconnect } = s;
 
     if (connection === "connecting") {
-      console.log("shaka");
-      console.log("ᴘʀᴏᴄᴇssɪɴɢ sᴇssɪᴏɴ ɪᴅ");
+      console.log("please wait...");
+      console.log("processing session id.....");
     }
 
     if (
@@ -110,8 +110,8 @@ async function Abhiy() {
     }
 
     if (connection === "open") {
-      console.log("ʟᴏɢɪɴ sᴜᴄᴄᴇssғᴜʟ ✅");
-      console.log("ɪɴsᴛᴀʟʟɪɴɢ ᴘʟᴜɢɪɴs 📥");
+      console.log("Login Sucessful ✅");
+      console.log("Installing Plugins 📥");
 
       let plugins = await PluginDB.findAll();
       plugins.map(async (plugin) => {
@@ -127,7 +127,7 @@ async function Abhiy() {
           }
         }
       });
-      console.log("ᴘʟᴜɢɪɴs ɪɴsᴛᴀʟʟᴇᴅ ✅");
+      console.log("plugins installed ✅");
 
       fs.readdirSync("./plugins").forEach((plugin) => {
         if (path.extname(plugin).toLowerCase() === ".js") {
@@ -135,7 +135,7 @@ async function Abhiy() {
         }
       });
 
-      console.log(" ᴄᴏɴɴᴇᴄᴛᴇᴅ ✅");
+      console.log(" connected  ✅");
 
       const packageVersion = require("./package.json").version;
       const totalPlugins = events.commands.length;
