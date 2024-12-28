@@ -1,64 +1,52 @@
-# SHAKA BASE
-### HOW CAN YOU INTEGRATE YOUR SESSION ID?:
-## 1. visit <a href= "https://github.com/IRON-M4N/pair-example">PAIR EXAMPLE BY IRON M4N</a></b>
-fork the repo and change prefix and deploy but stuff in config onlyy, then head to index.js and ./lib/session.js and change the prefix to the one you set in the pair example you deployed, pair abd put session id
-### plugin creation below
-```
-command(
-  {
-    pattern: "ssweb ?(.*)",
-    fromMe: true,
-    desc: "screenshots a site",
-    type: "misc",
-  },
-  async (message, match) => {
-    })
-  }
-);
-```
-### Image url with thumbnail
+# 🌟 **NIKKA MD** 🌟  
+> **The Ultimate WhatsApp MD Bot by H4KI XER**  
 
-```
-const imageUrl = "https://files.catbox.moe/flinnf.jpg"; // Developer image
-        const thumbnailUrl = "https://files.catbox.moe/cuu1aa.jpg"; // Thumbnail image
+Welcome to **NIKKA MD**, the bot that brings intelligence and style to your WhatsApp automation. Powered by **Nikka Botz Inc**, this bot is crafted for efficiency, fun, and reliability.  
 
-        await message.client.sendMessage(message.jid, {
-            image: { url: imageUrl },
-            caption: devInfo,
-            contextInfo: {
-                externalAdReply: {
-                    title: "𝞖𝞓𝞙𝞘 𝙎𝞢𝞒 - Developer Info",
-                    body: "About haki",
-                    sourceUrl: "https://haki.us.kg", // Link to website
-                    mediaUrl: "https://haki.us.kg",
-                    mediaType: 4,
-                    showAdAttribution: true,
-                    renderLargerThumbnail: false,
-                    thumbnailUrl: thumbnailUrl,
-                },
-            },
-        });
-    }
-);
-```
+---  
 
-### only image 
-```
-const imageUrl = "https://files.catbox.moe/etg6fk.jpg"; // Replace with your image URL
+## 🔗 **Fork This Repository**  
+Create your own version and customize NIKKA MD to suit your needs!  
+[![Fork Now](https://img.shields.io/badge/Fork-Repository-blue?style=for-the-badge)](https://github.com/hakisolos/nikka-md/fork)  
 
-        await message.client.sendMessage(message.jid, {
-            image: { url: imageUrl },
-            caption: devInfo,
-        });
-    }
-);
-```
+---  
+## GET SESSION 
+[![here](https://img.shields.io/badge/get-session-blue?style=for-the-badge)](https://nikka-x.onrender.com)  
 
+## ⭐ **Star This Project**  
+Support the development of NIKKA MD by starring the repository!  
+[![Star Repo](https://img.shields.io/badge/Star-Repository-yellow?style=for-the-badge)](https://github.com/hakisolos/nikka-md)  
 
-## Credits:
-👉 <a href = "https://haki.us.kg">H4KI SER</a></br>
-👉 <a href = "#">STAR KING</a></br>
-👉 <a href = "#">IRON M4N</a></br>
-👉 <a href = "#">PARADOXICAL</a></br>
+---  
 
-## all rights reserved, made with so much ❤️ by haki🍀
+## 🚀 **Deployment Options**  
+Deploy **NIKKA MD** on any platform you prefer:  
+
+### 1️⃣ **Deploy on Hugging Face**  
+[![Deploy to Hugging Face](https://img.shields.io/badge/Deploy-Hugging%20Face-orange?style=for-the-badge)](https://huggingface.co)  
+
+### 2️⃣ **Deploy on Codespaces**  
+[![Deploy on Codespaces](https://img.shields.io/badge/Deploy-Codespaces-green?style=for-the-badge)](https://github.com/hakisolos/nikka-md)  
+
+### 3️⃣ **Deploy on Panel**  
+Download the ZIP file and deploy on your preferred panel.  
+[![Download ZIP](https://img.shields.io/badge/Download-ZIP-red?style=for-the-badge)](https://github.com/hakisolos/nikka-md/archive/refs/heads/main.zip)  
+
+### 4️⃣ **Deploy on Render**  
+[![Deploy on Render](https://img.shields.io/badge/Deploy-Render-purple?style=for-the-badge)](https://render.com)  
+
+### 5️⃣ **Deploy on Heroku**  
+[![Deploy on Heroku](https://img.shields.io/badge/Deploy-Heroku-blueviolet?style=for-the-badge)](https://heroku.com)  
+
+---  
+
+## 🤝 **Credits** 
+GOD DID
+- **Bot Name**: NIKKA MD
+- **Owner**: H4KI XER  
+- **Company**: Nikka Botz Inc  
+- **Repository**: [GitHub.com/hakisolos/nikka-md](https://github.com/hakisolos/nikka-md)  
+
+---  
+
+**Made with ❤️ by H4KI XER and the Nikka Botz Inc team.**
